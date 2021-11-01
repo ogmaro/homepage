@@ -18,7 +18,7 @@ body{
 }
 header{
     background-color: var(--TopAndNav);
-    padding: 1vw 2vw 5vw 2vw;
+    padding: 1rem 2rem 5rem 2rem;
     /* position: relative; */
     
 }
@@ -74,7 +74,7 @@ nav{
     place-content: space-between;
 }
 .nav-left{
-    padding: 0 2.5em;
+    padding: 0 2.5rem;
 }
 a{
     text-decoration: none;
@@ -87,12 +87,12 @@ li{
     width: 100%;
 }
 .stutern{
-    padding-top: 1em;
-    width: 10em;
+    padding-top: 1rem;
+    width: 10rem;
 }
 .drop-menu{
     position: relative;
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 .drop-down{
     position: absolute;
@@ -111,45 +111,45 @@ li{
 .rotate{
     transform: rotate(270deg);
     display:inline-flex;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bolder;
-    padding-bottom: .2em;
-    padding-right: .2em;
+    padding-bottom: .2rem;
+    padding-right: .2rem;
     color: var(--secondary);
   }
  .text{
       color: var(--secondary);
       opacity: .9;
-      /* margin-bottom: 5em; */
+      /* margin-bottom: 5rem; */
   }
   .skill h1{
       font-weight: bold;
-      font-size: 4vw;
+      font-size: 4rem;
       color: var(--primary);
-      margin: 1.2em 3em .5em 0;
+      margin: 1.2rem 3rem .5rem 0;
   }
 .home{
-    padding: 5em 5em 0 5em;
+    padding: 5rem 5rem 0 5rem;
     display: flex;
     place-content: space-between;
 }
 .home-img{
-    width: 30vw;
+    width: 30rem;
     display: block;
-    margin-top: 5em;
+    margin-top: 5rem;
 }
 .employ-img{
-    width: 35vw;
+    width: 35rem;
 }
 .text-h2{
     color: var(--primary);
-    font-size: 3vw;
+    font-size: 3rem;
 }
 .timeline h2 span{
     color: var(--tetiary);
 }
 .talent{
-    padding: 5em 5em 0 5em;
+    padding: 5rem 5rem 0 5rem;
 }
 .talent .text, .talent .text-h2{
     text-align: center;
@@ -158,12 +158,16 @@ li{
     display: flex;
     place-content: center;
 }
+.y-t{
+    color: var(--primary);
+    text-align: center;
+}
 .profile{
-    padding: 2em 5em;
+    padding: 2rem 5rem;
 }
 .image{
     border-radius: 50%;
-    width: 10vw;
+    width: 10rem;
 }
 .profile h3+ h4+ p{
     text-align: center;
@@ -171,36 +175,36 @@ li{
 }
 .testimony{
     background-color: var(--primary);
-    padding: 9em 0;    
+    padding: 9rem 0;    
     text-align: center;
     color: var(--background);
 }
 .testimony h2{
-    font-size: 2em;
+    font-size: 2rem;
 }
 .testimony h4{
-    font-size: .8em;    
+    font-size: .8rem;    
     opacity: .8;
     outline: none;
 }
 .trusted{
     text-align: center;
     padding: 8vh 0;
-    margin: 0 15em;
+    margin: 0 15rem;
 }
 .trusted .text{
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 .client{
     display: flex;
     place-content: center;
-    margin-top: 4em;
+    margin-top: 4rem;
 }
 .client div{
-   width: 17vw;
+   width: 17rem;
 }
 .client img{
-    margin: 1em 0;
+    margin: 1rem 0;
 }
 .talk{
     margin: 15vh;
@@ -211,12 +215,12 @@ li{
 }
 footer{
     background-color: var(--primary);
-    padding: 8em 5em;
+    padding: 8rem 5rem;
     display: flex;
     place-content: space-between;
 }
 footer a, footer li{
-    padding-top: 1em;
+    padding-top: 1rem;
     color: var(--background);
 }
 footer h3{
@@ -226,7 +230,7 @@ footer h3{
 /* handbugger menu */
 .handbugger{
     display: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 @media only screen and (max-width: 1000px){
     header{
@@ -250,30 +254,103 @@ footer h3{
         flex-direction: column;
     }
     .stutern{
-        padding-top: 1em;
-        width: 10em;
+        padding-top: 1rem;
+        width: 10rem;
     }
     .stutern img{
         width: 100%;
     }
-    .drop-down{
-        /* display: block;
-        position: none; */
-    }
-        .nav-left-top{
+    /* .drop-down{
+        display: block;
+    } */
+    .nav-left-top{
         display: none;
     }
     .handbugger{
-        font-size: 1.5em;
+        font-size: 1.5rem;
         display: block;
-        padding-top: .5em;
+        padding-top: .5rem;
+    }
+    .nav-left-top .handbugger:hover{
+        display: block;
     }
     .skill h1{
         font-weight: bolder;
-        font-size: 7vw;
-        margin: 1.2em .25em .25em 0;
+        font-size: 5vw;
+    }
+    .skill .text{
+        margin: 1.5rem 0;
+    }
+    .home-img{
+        width: 100%;
     }
     .home{
-        padding: 15vw 2vw 20vw 2vw;
+        padding: 5rem 2rem 5rem 2rem;
+        display: flex;
+        place-content: space-between;
+    }
+    .employ-img{
+        width: 20rem;
+    }
+    .timeline{
+        margin-right: 3rem;
+    }
+    .y-t{
+        display: block;
+        margin: 2rem;
+        padding: 0;
+    }
+    .talent, .trusted{
+        margin: 0 5rem;
+    }
+    
+    .client img{
+        width: 100%;
+    }
+    .client{
+        display: flex;
+    }
+    .talk{
+        margin: 5vh;
+        padding: 15vh;
+    }
+    footer{
+        display: block;
+        padding: 3rem;
+    }
+    footer a, footer li{
+        padding-top: .5rem;
+        color: var(--background);
+    }
+    footer h3{
+        color: grey;
+        padding-top: 3rem;
+    }
+}
+@media only screen and (max-width: 800px){
+    .home-img{
+        display: none;
+    }
+    .home {
+        display: block;
+    }
+    .employ-img{
+        padding-top: 3rem;
+        /* margin: 0 2rem; */
+    }
+    .talent{
+        padding: 0;
+        margin: .2rem;
+        font-size: 1rem;
+    }
+    section.trusted{
+        margin: 0 5rem;
+        padding: 0;
+    }
+    .client img{
+        width: 100%;
+    }
+    .client{
+        display: flex;
     }
 }
