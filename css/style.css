@@ -334,6 +334,9 @@ footer h3{
     .home {
         display: block;
     }
+    .profile {
+        padding: 2rem 1rem;
+    }
     .employ-img{
         padding-top: 3rem;
         /* margin: 0 2rem; */
